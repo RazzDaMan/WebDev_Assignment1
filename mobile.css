@@ -45,14 +45,14 @@ body {
   width: 16px;
 }
 
-.navbar-icon-contrast{
-    width: 16px;
+.navbar-icon-contrast {
+  width: 16px;
 }
 
 .navbar-login-btn {
   text-wrap: nowrap;
   background: #d9eee1;
-  padding: 0.75rem 1.5rem;
+  padding: 0.7rem 1.6rem;
   border-radius: 9999px;
 }
 
@@ -65,6 +65,77 @@ body {
 .navbar-menu-btn i {
   margin-left: -4px;
   margin-top: 1px;
+}
+
+.topnav-container {
+  white-space: nowrap;
+  margin: 0.4rem 0rem;
+}
+
+.topnav-items span {
+  margin: 0rem 0.95rem;
+  color: #fff;
+  font-size: 16px;
+}
+
+.main-container {
+  width: 80%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.hero-section {
+  padding: 2.7rem 0rem;
+}
+
+.hero-section h1 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 50px;
+  word-spacing: 0.05rem;
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+.hero-section h3 {
+  color: #fff4a3;
+  font-weight: 700;
+  font-size: 21px;
+  margin-top: 0.6rem;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}
+
+.search-container {
+  display: flex;
+}
+
+.hero-section input {
+  background: #fff;
+  border: none;
+  border-top-left-radius: 3rem;
+  border-bottom-left-radius: 3rem;
+  height: 2.6rem;
+  min-width: 80%;
+}
+
+.search-container button {
+  background: #059862;
+  color: white;
+  border: none;
+  border-top-right-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+  height: 2.6rem;
+  width: 3rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center-content {
+  display: flex;
+  text-align: center;
 }
 
 .grow {
