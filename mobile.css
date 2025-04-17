@@ -135,6 +135,7 @@ body {
   z-index: 1000;
   margin-top: 3.5rem;
   position: fixed;
+  width: 100%;
   background: #282a35;
 }
 
