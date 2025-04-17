@@ -11,6 +11,96 @@ body {
   overflow-x: hidden;
 }
 
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer a {
+  color: #fff4a3;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0.8rem 0;
+}
+
+footer h4 {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+  padding-bottom: 0rem;
+  margin-top: 2rem;
+  margin-bottom: 0rem;
+}
+
+footer ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+footer ul li {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.footer-disclaimer {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  display: inline;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin: 0.5rem 0;
+}
+
+.footer-nav a {
+  margin: -0.2rem;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.footer-nav {
+  display: flex;
+  flex-wrap: wrap;
+  width: 40%;
+  gap: 1.5rem;
+  padding: 0;
+  margin: 2rem 0;
+  justify-content: center;
+}
+
+.footer-link {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.footer-w3-logo {
+  display: flex;
+  height: 50px;
+  margin-bottom: 1rem;
+}
+
+.footer-brands {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 33%;
+  justify-content: space-around;
+  gap: 1rem;
+  margin-top: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.fill-white {
+  filter: brightness(0) invert(1);
+}
+
 .lang-card {
   width: 100%;
   display: flex;
@@ -237,6 +327,7 @@ body {
   align-items: center;
   gap: 0.8rem;
   padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .learn-lang-card {
@@ -278,32 +369,22 @@ svg {
 }
 
 .css-color {
-  margin: 0;
-  padding: 0;
   background: #fff4a3;
 }
 
 .html-color {
-  margin: 0;
-  padding: 0;
   background: #d9eee1;
 }
 
 .js-color {
-  margin: 0;
-  padding: 0;
   background: #282a35;
 }
 
 .sql-color {
-  margin: 0;
-  padding: 0;
   background: #96d4d4;
 }
 
 .py-color {
-  margin: 0;
-  padding: 0;
   background: #f3ecea;
 }
 
@@ -324,6 +405,32 @@ svg {
 .grow {
   display: flex;
   flex: 1;
+}
+
+.small-lang-card-styling {
+  display: flex;
+  flex-direction: column;
+  width: 94%;
+  border-radius: 0.4rem;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.small-lang-card-size1 {
+  height: 137px;
+}
+
+.small-lang-card-size2 {
+  height: 113px;
+}
+
+.small-lang-card-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  padding-bottom: 4rem;
 }
 
 .white-text h4,
