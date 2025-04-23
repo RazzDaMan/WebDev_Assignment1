@@ -184,10 +184,16 @@ footer ul li {
 
 .navbar-item-1 {
   width: 70px;
+  margin-left: 2.6rem;
 }
 
 .navbar-item-2 {
   width: 42px;
+  margin-right: 1rem;
+}
+
+.navbar-item-3 {
+  width: 16px;
 }
 
 .flex-center {
@@ -203,11 +209,30 @@ footer ul li {
   width: 16px;
 }
 
+.auth-buttons-container {
+  position: relative;
+  display: flex;
+}
+
 .navbar-login-btn {
   text-wrap: nowrap;
   background: #d9eee1;
-  padding: 0.7rem 1.6rem;
+  padding: 0.6rem 1.5rem;
   border-radius: 9999px;
+  position: relative;
+  z-index: 1;
+}
+
+.navbar-signup-btn {
+  display: none;
+  text-wrap: nowrap;
+  background: #04aa6d;
+  color: #fff;
+  padding: 0.6rem 1.5rem;
+  border-radius: 9999px;
+  position: absolute;
+  right: 70px;
+  z-index: 2;
 }
 
 .navbar-menu-btn {
@@ -362,6 +387,10 @@ footer ul li {
   width: 200px;
   padding: 0.7rem;
   border-radius: 9999px;
+}
+
+.search-input-text {
+  display: none;
 }
 
 svg {
