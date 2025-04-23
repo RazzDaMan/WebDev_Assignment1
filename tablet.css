@@ -8,6 +8,48 @@
   }
 }
 
+@media screen and (min-width: 601px) {
+  .learn-to-code {
+    padding-top: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .learn-to-code h1 {
+    font-size: 60px;
+  }
+
+  .learn-to-code h3 {
+    font-size: 23px;
+  }
+
+  .code-example {
+    display: flex;
+    background: #e7e9eb;
+  }
+
+  .code-styling {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .code-styling h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 1rem 0;
+  }
+
+  .code-window {
+    background: #fff;
+    padding: 8px 12px;
+  }
+
+  .lang-card {
+    margin-bottom: 3.5rem;
+  }
+}
+
 @media screen and (min-width: 617px) {
   .search-input {
     display: flex;
