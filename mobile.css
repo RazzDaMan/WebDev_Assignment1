@@ -184,16 +184,39 @@ footer ul li {
 
 .navbar-item-1 {
   width: 70px;
-  margin-left: 2.6rem;
+  margin-left: 2.1rem;
 }
 
 .navbar-item-2 {
   width: 42px;
-  margin-right: 1rem;
+  margin-right: 1.2rem;
+  margin-left: -0.4rem;
 }
 
 .navbar-item-3 {
   width: 16px;
+}
+
+.navbar-item-4 {
+  display: none;
+  align-items: center;
+  justify-content: space-around;
+  width: 306px;
+  margin: 0 7px;
+}
+
+.navbar-item-4 a {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-item-4 .navbar-cert {
+  display: none;
+}
+
+.navbar-item-4 i {
+  margin-left: -4px;
+  margin-top: 1px;
 }
 
 .flex-center {
@@ -480,4 +503,15 @@ svg {
 .white-text h4,
 .white-text p {
   color: #fff;
+}
+
+@media screen and (min-width: 400px) {
+  .navbar-item-1 {
+    margin-right: 0.7rem;
+    margin-left: 2.6rem;
+  }
+
+  .navbar-item-2 {
+    margin-right: 1.5rem;
+  }
 }
