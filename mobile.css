@@ -307,8 +307,8 @@ footer ul li {
 
 .code-example {
   display: none;
-  margin-left: 16px;
-  margin-right: 16px;
+  margin-left: 3%;
+  margin-right: 3%;
   border-radius: 5px;
   padding: 16px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 5px 0px,
@@ -436,6 +436,7 @@ svg {
 
 .css-color {
   background: #fff4a3;
+  padding-bottom: 2rem;
 }
 
 .html-color {
@@ -445,14 +446,17 @@ svg {
 
 .js-color {
   background: #282a35;
+  padding-bottom: 2rem;
 }
 
 .sql-color {
   background: #96d4d4;
+  padding-bottom: 2rem;
 }
 
 .py-color {
   background: #f3ecea;
+  padding-bottom: 2rem;
 }
 
 .learn-lang-color-pink {

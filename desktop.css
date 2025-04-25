@@ -1,0 +1,25 @@
+@media screen and (min-width: 993px) {
+  .code-example-desktop {
+    width: 993px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin: auto;
+  }
+
+  .code-example {
+    width: 70%;
+  }
+
+  .lang-card {
+    margin: 0;
+    margin-bottom: 3rem;
+  }
+
+  .lang-card h4 {
+    margin-top: 0;
+    padding-top: 0;
+  }
+}

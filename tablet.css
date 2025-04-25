@@ -40,9 +40,34 @@
     margin: 1rem 0;
   }
 
+  .code-styling a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #04aa6d;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    width: 200px;
+    height: 43px;
+    border-radius: 9999px;
+  }
+
   .code-window {
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
     background: #fff;
     padding: 8px 12px;
+    width: 100%;
+    font-weight: 400;
+    margin-bottom: 16px;
+  }
+
+  .code-window-added-line {
+    background: #04aa6d;
+    width: 4px;
+    margin-bottom: 16px;
   }
 
   .lang-card {
@@ -94,6 +119,12 @@
 
   .navbar-item-4 {
     display: flex;
+  }
+}
+
+@media screen and (min-width: 770px) {
+  .lang-card h4 {
+    font-size: 100px;
   }
 }
 
