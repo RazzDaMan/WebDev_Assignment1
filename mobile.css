@@ -219,6 +219,39 @@ footer ul li {
   margin-top: 1px;
 }
 
+.navbar-item-5
+{
+  display: none;
+  flex-direction: row;
+}
+
+.navbar-item-5 div {
+  display: flex;
+  align-items: center;
+  transform: translateX(-38px);
+}
+
+.navbar-item-5 div a {
+  display: flex;
+  text-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  padding-left: 3.2rem;
+}
+
+.navbar-item-5 div a img {
+  position: relative;
+  transform: translateX(-9px);
+}
+
+.nav-item-5-spaces a {
+  transform: translateX(-3px);
+}
+
+.nav-item-5-teach a {
+  transform: translateX(-5px);
+}
+
 .flex-center {
   display: flex;
   justify-content: center;
