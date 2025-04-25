@@ -245,6 +245,7 @@ footer ul li {
 }
 
 .nav-item-5-spaces a {
+  display: none;
   transform: translateX(-3px);
 }
 
