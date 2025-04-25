@@ -467,29 +467,28 @@ svg {
   display: flex;
 }
 
+.color-padding {
+  padding-bottom: 2rem;
+}
+
 .css-color {
   background: #fff4a3;
-  padding-bottom: 2rem;
 }
 
 .html-color {
   background: #d9eee1;
-  padding-bottom: 2rem;
 }
 
 .js-color {
   background: #282a35;
-  padding-bottom: 2rem;
 }
 
 .sql-color {
   background: #96d4d4;
-  padding-bottom: 2rem;
 }
 
 .py-color {
   background: #f3ecea;
-  padding-bottom: 2rem;
 }
 
 .learn-lang-color-pink {
@@ -514,27 +513,47 @@ svg {
 .small-lang-card-styling {
   display: flex;
   flex-direction: column;
-  width: 94%;
   border-radius: 0.4rem;
   align-items: center;
   justify-content: center;
   font-size: 30px;
   font-weight: 600;
+  width: 94%;
+  margin: 2% auto;
 }
 
 .small-lang-card-size1 {
   height: 137px;
+  width: 100%;
 }
 
 .small-lang-card-size2 {
   height: 113px;
+  width: 100%;
 }
 
-.small-lang-card-section {
+.small-lang-card-section-first {
   display: flex;
   flex-direction: column;
-  gap: 0.8rem;
-  padding-bottom: 4rem;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.small-lang-card-section-second {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.small-lang-card-section-first article {
+  width: 94%;
+}
+
+.small-lang-card-section-second article {
+  width: 94%;
 }
 
 .white-text h4,

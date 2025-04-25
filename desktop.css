@@ -33,11 +33,37 @@
   .learn-languages {
     flex-direction: row;
     flex-wrap: wrap;
+    max-width: 1430px;
+    margin: auto;
   }
 
   .learn-lang-card {
     width: 43%;
     margin: 1% 2%;
+  }
+
+  .small-lang-card-section-first {
+    flex-direction: row;
+    max-width: 1430px;
+    margin: auto;
+  }
+
+  .small-lang-card-section-first article {
+    width: 44%;
+    margin: 1% 2%;
+  }
+
+  .small-lang-card-size1 {
+    width: 100%;
+  }
+
+  .small-lang-card-section-second {
+    max-width: 1430px;
+    margin: auto;
+  }
+
+  .small-lang-card-section-second article {
+    width: 20%;
   }
 }
 
