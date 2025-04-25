@@ -73,6 +73,16 @@
   .lang-card {
     margin-bottom: 3.5rem;
   }
+
+  .small-lang-card-section-second {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .small-lang-card-section-second article {
+    width: 45%;
+    margin: 1% 2%;
+  }
 }
 
 @media screen and (min-width: 617px) and (max-width: 689px) {
