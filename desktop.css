@@ -1,4 +1,11 @@
 @media screen and (min-width: 993px) {
+  .js-color,
+  .html-color,
+  .py-color,
+  .sql-color {
+    padding-bottom: 0.5rem;
+  }
+
   .code-example-desktop {
     width: 993px;
     display: flex;
@@ -21,5 +28,15 @@
   .lang-card h4 {
     margin-top: 0;
     padding-top: 0;
+  }
+
+  .learn-languages {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .learn-lang-card {
+    width: 43%;
+    margin: 1% 2%;
   }
 }
