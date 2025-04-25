@@ -16,6 +16,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 1.6rem;
 }
 
 footer a {
@@ -43,6 +44,13 @@ footer ul li {
   color: #fff;
   font-size: 16px;
   font-weight: 600;
+}
+
+.footer-category-lists {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  justify-content: space-between;
 }
 
 .footer-disclaimer {
@@ -74,6 +82,14 @@ footer ul li {
   justify-content: center;
 }
 
+.footer-nav-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
 .footer-link {
   color: #fff;
   font-size: 12px;
@@ -82,7 +98,6 @@ footer ul li {
 }
 
 .footer-w3-logo {
-  display: flex;
   height: 50px;
   margin-bottom: 1rem;
 }
@@ -90,11 +105,20 @@ footer ul li {
 .footer-brands {
   display: flex;
   flex-wrap: wrap;
-  max-width: 33%;
-  justify-content: space-around;
+  width: 60%;
+  justify-content: center;
   gap: 1rem;
   margin-top: 3rem;
   margin-bottom: 0.5rem;
+}
+
+.footer-brands-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: auto;
 }
 
 .fill-white {
