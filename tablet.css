@@ -34,7 +34,7 @@
     width: 100%;
   }
 
-  .code-styling h3 {
+  .code-styling h4 {
     font-size: 24px;
     font-weight: 600;
     margin: 1rem 0;
@@ -55,7 +55,7 @@
 
   .code-window {
     display: inline-block;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Courier New", Geneva, Tahoma, sans-serif;
     font-size: 16px;
     background: #fff;
     padding: 8px 12px;
@@ -139,6 +139,18 @@
 
   .lang-card h4 {
     font-size: 100px;
+  }
+
+  .lang-card .js-title {
+    font-size: 66px;
+  }
+
+  .lang-card .py-title {
+    font-size: 80px;
+  }
+
+  .lang-card .sql-title {
+    font-size: 80px;
   }
 }
 

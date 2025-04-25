@@ -53,6 +53,10 @@ footer ul li {
   justify-content: space-between;
 }
 
+.code-window span {
+  font-family: Consolas;
+}
+
 .footer-disclaimer {
   color: #fff;
   font-size: 12px;
@@ -243,8 +247,7 @@ footer ul li {
   margin-top: 1px;
 }
 
-.navbar-item-5
-{
+.navbar-item-5 {
   display: none;
   flex-direction: row;
 }
